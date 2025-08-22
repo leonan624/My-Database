@@ -1,4 +1,4 @@
-##  :fa-times:**SQL PRACTICE REPOSITORY**
+## **SQL PRACTICE REPOSITORY**
 
 This repository is dedicated to practicing and improving SQL skills through hands-on examples. Here, you will find scripts organized into three main categories:
 
@@ -6,8 +6,8 @@ This repository is dedicated to practicing and improving SQL skills through hand
 
 **DML** (Data Manipulation Language): Examples of inserting, updating, and deleting records in different scenarios.
 
-**DQL **(Data Query Language): Queries to retrieve and analyze data using SELECT statements with clauses like WHERE, JOIN, GROUP BY, and more.
+**DQL**(Data Query Language): Queries to retrieve and analyze data using SELECT statements with clauses like WHERE, JOIN, GROUP BY, and more.
 
-## :fa-times:**Purpose**
+## **Purpose**
 
 The goal of this repository is to consolidate knowledge of SQL commands and best practices, while building a solid foundation for working with relational databases.
