@@ -44,5 +44,19 @@ select livros.nome as titulos, editora.nome as editoras from livros
 inner join editora on livros.idlivros = editora.ideditora;
 
 -- Mostre o nome dos alunos e os títulos dos livros que eles pegaram emprestado.
-select 
+SELECT a.nome AS aluno, l.nome AS livro FROM Alunos a
+INNER JOIN Emprestimos e ON a.idalunos = e.idalunos
+INNER JOIN Livros l ON e.idlivros = l.idlivros;
 
+-- Liste os autores e os livros que eles escreveram.
+select a.nome as autor, l.nome as titulo from autor a
+inner join livros l on a.idautor = l.idlivros;
+
+-- Exiba os empréstimos mostrando: nome do aluno, título do livro, data de empréstimo e data prevista de devolução.
+select a.nome as aluno, l.nome as titulo, e.data_do_emprestimo, e.data_da_devolucao_prevista from emprestimos e
+inner join livros l on l.idlivros = e.idlivros
+inner join alunos a on a.idalunos = e.idalunos;
+
+-- Consultas com Funções de Agregação
+
+-- Mostre a quantidade total de alunos cadastrados.
