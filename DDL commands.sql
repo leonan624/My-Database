@@ -171,6 +171,11 @@ INSERT INTO LIVROS (nome, paginas, preco, ano_publicacao, idEDITORA) VALUES
 
 select * from livros;
 
+INSERT INTO rautor (idautor, idlivros) VALUES
+(1,1),(2,2),(3,3),(4,4),(5,5),(6,6),(7,7),(8,8),(9,9),(10,10);
+
+select * from rautor;
+
 
 
 
